@@ -1,0 +1,8 @@
+# ignore ALL .log files
+*.log
+*.jar
+*.lst
+# ignore ALL files in ANY directory named temp
+temp/
+*/target
+*/target/surefire-reports
