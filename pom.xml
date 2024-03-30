@@ -16,7 +16,11 @@
     </properties>
 
     <modules>
+<<<<<<< HEAD
         <module>cqrs.core</module>
+=======
+        <module>../cqrs-es/cqrs.core</module>
+>>>>>>> origin/main
         <module>account.common</module>
         <module>account.cmd</module>
         <module>account.query</module>
