@@ -1,0 +1,7 @@
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.query/src/main/java/com/techbank/account/query/infrastructure/consumers/EventConsumer.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.query/src/main/java/com/techbank/account/query/domain/BankAccount.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.query/src/main/java/com/techbank/account/query/infrastructure/handlers/EventHandler.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.query/src/main/java/com/techbank/account/query/infrastructure/handlers/AccountEventHandler.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.query/src/main/java/com/techbank/account/query/QueryApplication.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.query/src/main/java/com/techbank/account/query/domain/AccountRepository.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.query/src/main/java/com/techbank/account/query/infrastructure/consumers/AccountEventConsumer.java

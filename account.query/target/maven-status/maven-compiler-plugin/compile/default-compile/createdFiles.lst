@@ -1,0 +1,8 @@
+com/techbank/account/query/infrastructure/consumers/EventConsumer.class
+com/techbank/account/query/domain/BankAccount.class
+com/techbank/account/query/infrastructure/consumers/AccountEventConsumer.class
+com/techbank/account/query/infrastructure/handlers/EventHandler.class
+com/techbank/account/query/infrastructure/handlers/AccountEventHandler.class
+com/techbank/account/query/domain/BankAccount$BankAccountBuilder.class
+com/techbank/account/query/QueryApplication.class
+com/techbank/account/query/domain/AccountRepository.class
