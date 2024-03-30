@@ -1,0 +1,16 @@
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/domain/EventStoreRepository.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/api/commands/CloseAccountCommand.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/api/commands/CommandHandler.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/api/controllers/DepositFundsController.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/infrastructure/AccountEventStore.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/api/commands/OpenAccountCommand.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/infrastructure/AccountCommandDispatcher.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/api/dto/OpenAccountResponse.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/infrastructure/AccountEventProducer.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/api/commands/AccountCommandHandler.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/domain/AccountAggregate.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/api/commands/WithdrawFundsCommand.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/api/commands/DepositFundsCommand.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/infrastructure/AccountEventSourcingHandler.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/CommandApplication.java
+/Users/joshuaalbert/bank-accout-repo/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/api/controllers/OpenAccountController.java
