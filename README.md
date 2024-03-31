@@ -32,7 +32,7 @@ Ocne the build goes well, you should be able to see the BUILD SUCCESS statement/
 Last two steps
 1. Run Command Application
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/0315c269-daa5-491e-b552-58ddaf91f089)
-   You can confirm, that the Command Application is running successfully by seeing this statement "**Started CommandApplication**" in the console.
+   You can confirm, that the Command Application is running successfully by seeing this statement "**Tomcat started on port 5001**" and "**Started CommandApplication**" in the console.
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/d4086e73-b7f5-4629-91be-381d8c92ce7f)
 
 
