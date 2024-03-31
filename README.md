@@ -32,6 +32,22 @@ Ocne the build goes well, you should be able to see the BUILD SUCCESS statement/
 Last two steps
 1. Run Command Application
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/0315c269-daa5-491e-b552-58ddaf91f089)
+   You can confirm, that the Command Application is running successfully by seeing this statement "**Started CommandApplication**" in the console.
+   ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/d4086e73-b7f5-4629-91be-381d8c92ce7f)
+
 
 3. Run Query Application
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/6dc4cf94-7bf2-4e51-83c8-aebc74654f9a)
+   You will notice "**Tomcat started** on port 5002" in the console.
+   ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/f47397e7-0272-4144-b34c-5e78865f8273)
+   Plus, you can confirm, that the Query Application is running successfully by seeing this statement "**Started QueryApplication**" in the console.
+   ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/3364e378-2848-4e10-94a3-3118cbc0eb40)
+   Lastly, you will notice, these 4 "**KafkaMessageListenerContainer**" for
+   1. AccountOpenedEvent
+   2. FundsDepositedEvent
+   3. FundsWithdrawnEvent
+   4. AccountClosedEvent
+   ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/0aeeeeac-dfb8-4958-b665-4139a78ba301)
+   
+
+
