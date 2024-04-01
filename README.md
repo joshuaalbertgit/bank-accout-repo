@@ -1,5 +1,7 @@
 This is my personal learning project to stay up to date.
-Thanks to Sean Campbell(from https://www.udemy.com/course/java-microservices-cqrs-event-sourcing-with-kafka/?couponCode=KEEPLEARNING.
+
+Thanks to Sean Campbell
+(from https://www.udemy.com/course/java-microservices-cqrs-event-sourcing-with-kafka/?couponCode=KEEPLEARNING)
 
 This project contains 4 modules, and it demonstrates CQRS & Event Sourcing design pattern.
 
