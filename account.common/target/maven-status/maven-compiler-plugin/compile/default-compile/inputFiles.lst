@@ -1,6 +1,0 @@
-/Users/joshuaalbert/bank-accout-repo/bank-account/account.common/src/main/java/com/techbank/account/common/events/FundsDepositedEvent.java
-/Users/joshuaalbert/bank-accout-repo/bank-account/account.common/src/main/java/com/techbank/account/common/events/FundsWithdrawnEvent.java
-/Users/joshuaalbert/bank-accout-repo/bank-account/account.common/src/main/java/com/techbank/account/common/dto/AccountType.java
-/Users/joshuaalbert/bank-accout-repo/bank-account/account.common/src/main/java/com/techbank/account/common/dto/BaseResponse.java
-/Users/joshuaalbert/bank-accout-repo/bank-account/account.common/src/main/java/com/techbank/account/common/events/AccountClosedEvent.java
-/Users/joshuaalbert/bank-accout-repo/bank-account/account.common/src/main/java/com/techbank/account/common/events/AccountOpenedEvent.java
