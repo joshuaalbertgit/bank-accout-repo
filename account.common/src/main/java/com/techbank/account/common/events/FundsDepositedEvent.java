@@ -12,8 +12,4 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 public class FundsDepositedEvent extends BaseEvent {
     private double amount;
-
-//    public FundsDepositedEvent(String id) {
-//        super(id);
-//    }
 }
