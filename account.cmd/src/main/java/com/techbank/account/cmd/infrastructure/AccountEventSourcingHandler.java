@@ -25,12 +25,16 @@ public class AccountEventSourcingHandler implements EventSourcingHandler<Account
     public AccountAggregate getById(String id) {
         var aggregate = new  AccountAggregate();
         var events = eventStore.getEvents(id);
-
         //check the events are not null, then iterate it
         if (events != null && !events.isEmpty()){
             aggregate.replayEvents(events);
             var latestVersion = events.stream().map(x-> x.getVersion()).max(Comparator.naturalOrder());
         }
         return aggregate;
+    }
+    @Override
+    public void delete() {
+        eventStore.deleteEvents();
+        //aggregate.markChangesAsCommitted();
     }
 }

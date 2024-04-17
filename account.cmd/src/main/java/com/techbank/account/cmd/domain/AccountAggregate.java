@@ -1,10 +1,7 @@
 package com.techbank.account.cmd.domain;
 
 import com.techbank.account.cmd.api.commands.OpenAccountCommand;
-import com.techbank.account.common.events.AccountClosedEvent;
-import com.techbank.account.common.events.AccountOpenedEvent;
-import com.techbank.account.common.events.FundsDepositedEvent;
-import com.techbank.account.common.events.FundsWithdrawnEvent;
+import com.techbank.account.common.events.*;
 import com.techbank.cqrs.core.domain.AggregateRoot;
 import lombok.NoArgsConstructor;
 
@@ -81,5 +78,14 @@ public class AccountAggregate extends AggregateRoot {
     public void apply(AccountClosedEvent event) {
         this.id = event.getId();
         this.active = false;
+    }
+
+    public void closeAllAccounts() {
+        if (!this.active) {
+            throw new IllegalStateException("All bank accounts have already been closed!");
+        }
+        raiseEvent(CloseAllAccountsEvent.builder()
+                .id(this.id)
+                .build());
     }
 }
