@@ -45,6 +45,10 @@ public class AccountCommandHandler implements CommandHandler{
         var aggregate = eventSourcingHandler.getById(command.getId());
         aggregate.closeAccount();
         eventSourcingHandler.save(aggregate);
+    }
 
+    @Override
+    public void handle(CloseAllAccountsCommand command) {
+       eventSourcingHandler.delete();
     }
 }

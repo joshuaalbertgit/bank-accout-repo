@@ -43,9 +43,7 @@ public class AccountEventStore implements EventStore {
                     .eventData(event)
                     .build();
             var persistedEvent = eventStoreRepository.save(eventModel);
-//            if (persistedEvent != null){
-//                //todo: persist or produce event to kafka
-//            }
+            //todo: persist or produce event to kafka
             if(!persistedEvent.getId().isEmpty()){
                 eventProducer.produce(event.getClass().getSimpleName(), event);
             }
@@ -59,5 +57,14 @@ public class AccountEventStore implements EventStore {
             throw new AggragateNotFoundException("Incorrect account/aggregate Id provided!");
         }
         return eventStream.stream().map(x -> x.getEventData()).collect(Collectors.toList());
+    }
+
+    @Override
+    public void deleteEvents() {
+        var eventStream = eventStoreRepository.findAll();
+        if (eventStream == null || eventStream.isEmpty()){
+            throw new AggragateNotFoundException("No events are present, it is empty, so could not delete any!");
+        }
+        eventStoreRepository.deleteAll();
     }
 }
