@@ -51,4 +51,9 @@ public class AccountCommandHandler implements CommandHandler{
     public void handle(CloseAllAccountsCommand command) {
        eventSourcingHandler.delete();
     }
+
+    @Override
+    public void handle(RestoreReadDbCommand command) {
+        eventSourcingHandler.republishEvents();
+    }
 }
