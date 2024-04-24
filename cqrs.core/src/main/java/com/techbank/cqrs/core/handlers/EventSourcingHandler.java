@@ -6,4 +6,6 @@ public interface EventSourcingHandler <T>{
     void save(AggregateRoot aggregate);
     T getById(String id);
     void delete();
+    //restore read db operation handled via this method
+    void republishEvents();
 }
