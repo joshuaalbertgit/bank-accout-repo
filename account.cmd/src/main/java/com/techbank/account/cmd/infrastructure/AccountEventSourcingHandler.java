@@ -6,6 +6,7 @@ import com.techbank.cqrs.core.handlers.EventSourcingHandler;
 import com.techbank.cqrs.core.infrastructure.EventStore;
 import com.techbank.cqrs.core.producers.EventProducer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.text.MessageFormat;
@@ -19,6 +20,11 @@ public class AccountEventSourcingHandler implements EventSourcingHandler<Account
 
     @Autowired
     private EventProducer eventProducer;
+
+    //change #1 - read the topic name defined in application.yml (account.cmd, under resource(s) folder)
+    //use this variable in the calling method - republishEvents
+    @Value("${spring.kafka.topic}")
+    private String topic;
 
     @Override
     public void save(AggregateRoot aggregate) {
@@ -59,7 +65,11 @@ public class AccountEventSourcingHandler implements EventSourcingHandler<Account
                 //String formattedMessage = MessageFormat.format("Name: {0}, Age: {1}, Salary: {2}", name, age, salary);
                 String formattedMessage = MessageFormat.format("Event Name: {0}, aggregateId: {1}", event.getClass().getSimpleName(), aggregateId);
                 System.out.println(formattedMessage + "\n");
-                eventProducer.produce(event.getClass().getSimpleName(), event);
+
+                //change #2 - call the topic name as it was declared (as refer //change #1)
+                //previously it was set up like this: eventProducer.produce(event.getClass().getSimpleName(), event);
+                //now changed to called the topic name
+                eventProducer.produce(topic, event);
             }
         }
     }

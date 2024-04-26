@@ -12,3 +12,9 @@ spring:
       bootstrap-servers: localhost:9092
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      # create topic name in here
+      # Apply the changes in two classes 1. AccountEventStore 2. AccountEventSourcingHandler
+      #change #1 : declare a variable as private String topic annotate as @Value("${spring.kafka.topic}")
+      # change #2:  use this variable in the calling method as this - eventProducer.produce(topic, event);
+      # previously it was used as eventProducer.produce(event.getClass().getSimpleName(), event);
+    topic: BankAccountEvents
