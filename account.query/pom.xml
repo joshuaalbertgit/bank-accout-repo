@@ -14,7 +14,7 @@
 	<name>account.query</name>
 	<description>Query API ( Bank account ) Demo project for Spring Boot</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
