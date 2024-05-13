@@ -61,6 +61,7 @@ Lastly, how to run the APIs:
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/5c1aa928-a7d7-4801-9e69-21c705e7f8c5)
 
    with the right input, it creates an account
+   
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/d13e9932-26e7-45d9-843f-aee7d555a14c)
 
 3. depositFunds - URL/endpoint - localhost:5001/api/v1/depositFunds/15aa0165-3d77-4650-a670-c605f5c1892a
