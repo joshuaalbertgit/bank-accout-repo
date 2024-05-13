@@ -53,23 +53,25 @@ Last two steps
    
 Lastly, how to run the APIs:
 1. openBankAccount - URL/endpoint - localhost:5001/api/v2/openBankAccount
-   Input been validated now
+
+   Input been validated now - error 1
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/27339bc7-3c8d-4022-8a02-014aa9e0cb1f)
-   
+
+   Input been validated now - error 2
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/5c1aa928-a7d7-4801-9e69-21c705e7f8c5)
 
    with the right input, it creates an account
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/d13e9932-26e7-45d9-843f-aee7d555a14c)
 
-2. depositFunds - URL/endpoint - localhost:5001/api/v1/depositFunds/15aa0165-3d77-4650-a670-c605f5c1892a
+3. depositFunds - URL/endpoint - localhost:5001/api/v1/depositFunds/15aa0165-3d77-4650-a670-c605f5c1892a
    pass on the id created before, for the account creation
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/dc81d82b-c70f-4c80-a3fa-8ee1737aae65)
    
-3. withdrawFunds -localhost:5001/api/v1/withdrawFunds/15aa0165-3d77-4650-a670-c605f5c1892a
+4. withdrawFunds -localhost:5001/api/v1/withdrawFunds/15aa0165-3d77-4650-a670-c605f5c1892a
    Pass on the same Id to withdraw funds
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/68b0aa06-3842-4c12-b261-a148358bd2ef)
    
-4. deleteAccount - URL/endpoint - localhost:5001/api/v1/closeBankAccount/15aa0165-3d77-4650-a670-c605f5c1892a
+5. deleteAccount - URL/endpoint - localhost:5001/api/v1/closeBankAccount/15aa0165-3d77-4650-a670-c605f5c1892a
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/e92c115d-b753-47b5-8583-5e20fcbf4821)
 
 GET- APIs:
