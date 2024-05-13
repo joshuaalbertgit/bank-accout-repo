@@ -66,13 +66,14 @@ Lastly, how to run the APIs:
 
 3. depositFunds - URL/endpoint - localhost:5001/api/v1/depositFunds/15aa0165-3d77-4650-a670-c605f5c1892a
    pass on the id created before, for the account creation
+   
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/dc81d82b-c70f-4c80-a3fa-8ee1737aae65)
    
-4. withdrawFunds -localhost:5001/api/v1/withdrawFunds/15aa0165-3d77-4650-a670-c605f5c1892a
+5. withdrawFunds -localhost:5001/api/v1/withdrawFunds/15aa0165-3d77-4650-a670-c605f5c1892a
    Pass on the same Id to withdraw funds
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/68b0aa06-3842-4c12-b261-a148358bd2ef)
    
-5. deleteAccount - URL/endpoint - localhost:5001/api/v1/closeBankAccount/15aa0165-3d77-4650-a670-c605f5c1892a
+6. deleteAccount - URL/endpoint - localhost:5001/api/v1/closeBankAccount/15aa0165-3d77-4650-a670-c605f5c1892a
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/e92c115d-b753-47b5-8583-5e20fcbf4821)
 
 GET- APIs:
