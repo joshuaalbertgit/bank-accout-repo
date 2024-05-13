@@ -71,22 +71,27 @@ Lastly, how to run the APIs:
    
 5. withdrawFunds -localhost:5001/api/v1/withdrawFunds/15aa0165-3d77-4650-a670-c605f5c1892a
    Pass on the same Id to withdraw funds
+   
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/68b0aa06-3842-4c12-b261-a148358bd2ef)
    
-6. deleteAccount - URL/endpoint - localhost:5001/api/v1/closeBankAccount/15aa0165-3d77-4650-a670-c605f5c1892a
+7. deleteAccount - URL/endpoint - localhost:5001/api/v1/closeBankAccount/15aa0165-3d77-4650-a670-c605f5c1892a
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/e92c115d-b753-47b5-8583-5e20fcbf4821)
 
 GET- APIs:
 1. bankAccountLookup/byId - URL/endpoint - localhost:5002/api/v1/bankAccountLookup/byId/5d33b450-45b9-4b59-b34a-80fd1fcdcfd2
+   
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/0645ef53-9d03-43d2-b79f-485c92af8203)
 
 2. bankAccountLookup/byHolder - URL/endpoint - localhost:5002/api/v1/bankAccountLookup/byHolder/JJ Albert
+   
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/250488c6-e555-451c-b93e-55ba7a7347e3)
    
 3. bankAccountLookup/withBalance/LESS_THAN - URL/endpoint - localhost:5002/api/v1/bankAccountLookup/withBalance/LESS_THAN/1000
+   
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/532c88d1-e70e-4261-b248-030dda012eab)
 
 4. bankAccountLookup/withBalance/GREATER_THAN - URL/endpoint - localhost:5002/api/v1/bankAccountLookup/withBalance/GREATER_THAN/10000
+   
    ![image](https://github.com/joshuaalbertgit/bank-accout-repo/assets/33743519/ef0606e3-ff55-4f96-a40d-47f9ccb31fbb)
 
 
